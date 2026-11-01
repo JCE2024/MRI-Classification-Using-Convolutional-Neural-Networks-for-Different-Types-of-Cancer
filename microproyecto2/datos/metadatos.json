@@ -1,0 +1,20 @@
+{
+  "file": "movie.csv",
+  "source_url_from_assignment": "https://www.kaggle.com/datasets/yasserh/imdb-movie-ratings-sentiment-analysis/data",
+  "provenance": "Copia del archivo proporcionado para el curso; no se ha comparado con una nueva descarga de Kaggle.",
+  "size_bytes": 52724248,
+  "sha256": "787cf9e018a7d039d77532065be28d2523412b8de0209224b1baa9ad63fe8760",
+  "rows": 40000,
+  "columns": [
+    "text",
+    "label"
+  ],
+  "label_counts": {
+    "0": 20019,
+    "1": 19981
+  },
+  "empty_or_whitespace_text_rows": 0,
+  "extra_exact_text_duplicates": 277,
+  "exact_texts_with_conflicting_labels": 0,
+  "note": "Archivo original conservado sin limpieza ni particiones. Confirmar el significado de 0 y 1 en la documentación de origen."
+}
