@@ -7,7 +7,7 @@ Repositorio de los miniproyectos del curso de la Maestría en Inteligencia Artif
 | Carpeta | Proyecto | Contenido |
 |---|---|---|
 | [microproyecto1](microproyecto1/) | Clasificación de imágenes de MRI cerebral con CNNs | Notebook, imágenes, resultados, figuras, informe y documentos del curso. |
-| [microproyecto2](microproyecto2/) | Clasificación de sentimientos con RNNs | Enunciado, dataset comprimido, plantilla del notebook y documentos de apoyo. |
+| [microproyecto2](microproyecto2/) | Clasificación de sentimientos con RNNs | Notebook con resultados, informe en Word, enunciado y dataset comprimido. |
 
 Consultar el README de cada carpeta para los requisitos y las instrucciones de ejecución.
 
@@ -17,4 +17,4 @@ El notebook se encuentra en [microproyecto1/microproyecto1_CNN_MRI.ipynb](microp
 
 ## Microproyecto 2
 
-Las instrucciones para extraer el dataset están en [microproyecto2/README.md](microproyecto2/README.md). La plantilla inicial es [microproyecto2/main.ipynb](microproyecto2/main.ipynb).
+La implementación y sus resultados están en el [notebook de clasificación con LSTM](microproyecto2/microproyecto2_RNN_IMDb.ipynb). Consulta el [enunciado](microproyecto2/microproyecto_RNN.pdf) y el [README del miniproyecto](microproyecto2/README.md) para los requisitos y la ejecución.
