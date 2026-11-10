@@ -1,24 +1,22 @@
 # Microproyecto 2 — Clasificación de sentimientos usando RNNs
 
-Materiales de partida para clasificar reseñas de películas de IMDb como positivas o negativas. Esta carpeta contiene el enunciado, los datos originales comprimidos y documentos de apoyo; todavía no incluye una solución ni resultados del modelo.
+Clasificación de sentimientos en reseñas de películas de IMDb con una red neuronal recurrente LSTM. Esta carpeta contiene el notebook ejecutado, el informe en Word, el enunciado y los datos del curso.
 
 ## Contenido
 
 | Ruta | Descripción |
 |---|---|
-| `main.ipynb` | Plantilla original del notebook del microproyecto 2, sin resolver. |
-| `enunciado/microproyecto_RNN.pdf` | Enunciado original del microproyecto 2. |
-| `enunciado/plantilla_informe.docx` | Plantilla de Word suministrada por el curso. |
+| [microproyecto2_RNN_IMDb.ipynb](microproyecto2_RNN_IMDb.ipynb) | Implementación y resultados del miniproyecto 2. |
+| [microproyecto_RNN.pdf](microproyecto_RNN.pdf) | Enunciado original del miniproyecto 2. |
+| [informe_microproyecto2.docx](enunciado/informe_microproyecto2.docx) | Informe en preparación en formato Word. |
 | `enunciado/rubrica_miniproyectos.pdf` | Rúbrica general ya disponible en el repositorio. |
 | `datos/movie.csv.zip` | Copia comprimida, sin modificaciones, del CSV proporcionado. |
 | `datos/README.md` | Fuente, extracción y características del dataset. |
 | `datos/metadatos.json` | Conteos y SHA-256 del CSV original. |
 
-## Plantilla del notebook
+## Ejecutar el notebook
 
-`main.ipynb` es la plantilla original suministrada por el curso. Contiene una celda de instrucciones y una celda de código de marcador de posición; no incluye una implementación base. Se conserva sin modificaciones para que el equipo pueda desarrollar la solución.
-
-La plantilla recuerda que el notebook con el código debe adjuntarse a la entrega; omitirlo implica cero en la sección de calificación del código. Se pueden agregar las celdas necesarias.
+El notebook puede ejecutarse desde la raíz del repositorio o desde `microproyecto2/`. Lee el CSV directamente desde `datos/movie.csv.zip` e incluye la preparación de datos, el entrenamiento de la LSTM y los resultados guardados en prueba. Adjunta el notebook con el código al entregar el miniproyecto.
 
 ## Actividades del enunciado
 
@@ -40,7 +38,7 @@ La arquitectura es de libre elección. El PDF original es la referencia para los
 
 ## Obtener los datos
 
-Desde la raíz del repositorio, en PowerShell:
+El notebook lee el ZIP directamente. Para inspeccionar el CSV extraído por separado, ejecuta desde la raíz del repositorio en PowerShell:
 
 ```powershell
 Expand-Archive -LiteralPath ".\microproyecto2\datos\movie.csv.zip" -DestinationPath ".\microproyecto2\datos"
